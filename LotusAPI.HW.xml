@@ -4,11 +4,6 @@
         <name>LotusAPI.HW</name>
     </assembly>
     <members>
-        <member name="P:LotusAPI.HW.AdvantechDaq.Started">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:LotusAPI.HW.CameraCaptureThread.ResumeRestart">
             <summary>
             Restart capture with t=0
