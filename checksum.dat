@@ -31,8 +31,8 @@ d9923793d0a8e578af1c7901a311e8587a9e838e *./ftd2xx64.dll
 cc3552479af39d60cfce241407de599328f5cc68 *./gxapi_v14.dll
 7de025a64d0ceba125263bd68493ab87331c76b5 *./HRRpcProxy_x64.dll
 f8835733fac49a198e77aace145cd71f33f62720 *./libiomp5md.dll
-490b646849477d025037268c0d32fdb2151c39b6 *./log4cpp.gentl.property
-f776df873b45eaa6d20f503222d47b10378a28bd *./log4cpp.spinnaker.property
+3250448019eb8e387b5b7f0fab43bae3e732cc95 *./log4cpp.gentl.property
+4d7ae0eb6917dfa19cd6783432fe6456646b77f8 *./log4cpp.spinnaker.property
 3e64276a1508335c77ad43eac03875c3580f6fd4 *./log4cpp_MD_VC140_v3_0.dll
 a752c76a51c2fbd5840aa21993be2bd449ac84d5 *./log4cpp_MD_VC141_v3_1_Basler_pylon.dll
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
