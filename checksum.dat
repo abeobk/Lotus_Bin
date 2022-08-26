@@ -92,7 +92,7 @@ b2c56efd96c62f3bcb0eedc6c24e079337eaf241 *./PylonGigE_v6_3_TL.dll
 b30778ce37b36cf0801a473fc3442d0bce67a2e8 *./PylonUsb_v6_3_TL.dll
 1c4f04ddb63db3d1105f15b6c5ad18e35eadf470 *./PylonUtility_v6_3.dll
 2ef23358007cb5bca278b701697a220a55cf5487 *./realsense2.dll
-4d00404ea7b288725e1270483dd1cd1175f9c9d0 *./RobotController.exe
+8550bb9910449d0bcf8412fa41174553658ed194 *./RobotController.exe
 bd11f8e5fd781106ab00ea779ff823f665ec7abe *./RobotStudio.Services.RobApi.Desktop.dll
 2a6bfa09dffedaff6fb6ad8585eb0b35c3fe185e *./RobotStudio.Services.RobApi.dll
 001fea4b359e49b602cde4c42ffa895522dcf115 *./S7.Net.dll
@@ -100,7 +100,7 @@ bd11f8e5fd781106ab00ea779ff823f665ec7abe *./RobotStudio.Services.RobApi.Desktop.
 10f0c85bc335fca73ed5bed706ea42a3aba7953d *./SharpGL.WinForms.dll
 c5c52935aaf61c4bdf0834763cc11603972f03e5 *./Spinnaker_v140.dll
 c500f8b65411360c6ff0d0ae5dc3454d42c30372 *./SQLite.Designer.dll
-7d1db3fcc7570e6ef623e8a41db17ac7e6b677d0 *./StereoLocator.exe
+a9cfb3f43f645985657c6a1dc07c6b82d2e79046 *./StereoLocator.exe
 f151cd6210630a0766edfc06945c2557e913318a *./System.Data.SQLite.dll
 c523db7da79efd0a4664761411faed488fa936bd *./ThemeVS2015.dll
 5f2880c40a36b61f1730004b0127995946737c06 *./uxapi_v13.dll
