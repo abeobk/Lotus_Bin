@@ -73,7 +73,7 @@ cba99fba5fbe92c0963b2b428291c150c56ddf9f *./lotus_hw_intel_rs_v142_x64.dll
 28179bd2d297c9d1bd24e15f58d5fee028a272ed *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 c5a73394c46c438c043443872e7826c94bdda437 *./lotus_ml_v142_x64.dll
-205ec8acbf6028040e10f9ba57b0da27f1ef3ab9 *./lotus_mv_v142_x64.dll
+db97a58528234674219930d38ed1196b6d9fb849 *./lotus_mv_v142_x64.dll
 bf2e16066f49ab24c576a687c95786463628baee *./lotus_sim_v142_x64.dll
 77964c7f55f25e305a2722e2ec51e244180dfb41 *./lotus_v142_x64.dll
 a8372165ff6bac756dc2d02c6932f369c234f0a2 *./MathParser_MD_VC140_v3_0.dll
@@ -84,7 +84,7 @@ c192dc6cca3fe4cf40380b9265e6da032370dd57 *./NodeMapData_MD_VC141_v3_1_Basler_pyl
 9271ca2d144c81d07944869f9e0e617ced854e60 *./opencv_img_hash410.dll
 03147574c2bba76c1c3a568e7b11867d8a884d9a *./opencv_world410.dll
 5efdea22ce8c904478a76d8eb238589901b78870 *./ParameterCollection1.dll
-e4b2d2133d781323c9a031b28bd6fa4c9d7f6449 *./PatternSearch2D.exe
+aaa365b0fa3ebd7c97674e7e994900729d78d817 *./PatternSearch2D.exe
 19c047bd504c207cb8810b08cc12297e880f00ba *./ProducerGEV.cti
 ed6e968cdbaad28e957f9efdf1550fdccd3c1ee3 *./ProducerU3V.cti
 146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
