@@ -41,7 +41,7 @@ a752c76a51c2fbd5840aa21993be2bd449ac84d5 *./log4cpp_MD_VC141_v3_1_Basler_pylon.d
 66fd26a3c25afdd7dc7e78443777623b31169bcc *./LogViewer.exe
 9442877445e4fb491279dd1c119bfd9cfa8923dd *./Log_MD_VC140_v3_0.dll
 6e8cd4fdd5608403a04c1c153ea71cb16b3f5ab1 *./Log_MD_VC141_v3_1_Basler_pylon.dll
-e36fd84ee3eedb3a044af2b4687ae85ac8c0b093 *./LotusAPI.App.exe
+28243c6c685db3a36870fe702d39dcef0f24b6a9 *./LotusAPI.App.exe
 67f2cb2405662fddfc0b66821a4a9bb128d080e1 *./LotusAPI.Controls.dll
 a3969d46bd709c5985bdd9b66c40dac77d15eaf8 *./LotusAPI.Controls.xml
 987adfcc20d3a3cfceeea2e478135e9b53073ec3 *./LotusAPI.Data.dll
@@ -67,7 +67,7 @@ c4f340a95617b8e3ccf37a93982c6d20f7cfeb3f *./LotusAPI.Sim.dll
 b624afb46b317e3eadac3703c2c84caffa4ce9f1 *./LotusAPI.Utils.xml
 727ba51ae6155da00e90b3b1f4888dd188835ad7 *./LotusAPI.xml
 616100b558432f39d67138632c8d7b4737ff5d5b *./lotus_gl_v142_x64.dll
-c63d806bb192b28275d5c3bb8e2b4ea475f4e892 *./lotus_hw_basler_v142_x64.dll
+584ef97f196c9e737ed53879606c4b9334a84ff6 *./lotus_hw_basler_v142_x64.dll
 cba99fba5fbe92c0963b2b428291c150c56ddf9f *./lotus_hw_intel_rs_v142_x64.dll
 68db26c7f5c594831e7ccc9ae952074de64d0ede *./lotus_hw_ptgrey_v142_x64.dll
 28179bd2d297c9d1bd24e15f58d5fee028a272ed *./lotus_hw_ti_v142_x64.dll
