@@ -67,10 +67,10 @@ efe290fe461caf75250520f63faf3f3fbb93fa00 *./LotusAPI.Sim.dll
 b624afb46b317e3eadac3703c2c84caffa4ce9f1 *./LotusAPI.Utils.xml
 727ba51ae6155da00e90b3b1f4888dd188835ad7 *./LotusAPI.xml
 4d0a4e2cf9ebaafd37f50ae8138f361474b8cf79 *./lotus_gl_v142_x64.dll
-a909c20ae0e23434073b68d7799144c5ac648ca8 *./lotus_hw_basler_v142_x64.dll
-ccb05224df86cf0d9435d6b79123778a5829bbb3 *./lotus_hw_intel_rs_v142_x64.dll
-3f321979a170253d83845c1372166306260e4ac3 *./lotus_hw_ptgrey_v142_x64.dll
-1255f29752f6bbdbeeb4fb9707aefd339ba60d92 *./lotus_hw_ti_v142_x64.dll
+fb44e32935d113534b5850e2c09b3c73a038d97f *./lotus_hw_basler_v142_x64.dll
+350fdd6c775afeb0f608b07fc2954eecf3a38847 *./lotus_hw_intel_rs_v142_x64.dll
+b7621af4a0f6d4d43da20e89f220c15504ed004b *./lotus_hw_ptgrey_v142_x64.dll
+47b3774d40d7c80cb9aeeb195ec18a0efa40299b *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 c5a73394c46c438c043443872e7826c94bdda437 *./lotus_ml_v142_x64.dll
 43fbc1df2a64cb0ee4fbc5aec167ea754cfa9bab *./lotus_mv_v142_x64.dll
