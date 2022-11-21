@@ -90,7 +90,7 @@ Calculate CC frame shift for fixed eye system
 </summary>
             <param name="scan_pose">Robot scan pose</param>
             <param name="robot_move_pose">Robot move pose</param>
-            <param name="H_uf">Scene-&gt;Model alignment matrix</param>
+            <param name="H_cc">Scene-&gt;Model alignment matrix</param>
             <returns />
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.CalcUFShift(LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d,LotusAPI.Math.Matrix44d)">
