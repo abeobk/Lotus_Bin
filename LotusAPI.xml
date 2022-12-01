@@ -169,6 +169,22 @@ Transform pointcloud from Eye to UF
             <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>POitncloud in UF coordinate</returns>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToBase(LotusAPI.Math.Line3d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform line from Eye to Base
+</summary>
+            <param name="eye_line">LIne in Eye coordinate</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
+            <returns>Line in base coordinate</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToBase(LotusAPI.Math.Plane3d,LotusAPI.Math.Matrix44d)">
+            <summary>
+Transform plne from Eye to Base
+</summary>
+            <param name="eye_plane">Plane in Eye coordinate</param>
+            <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
+            <returns>Plane in base coordinate</returns>
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.EyeToBase(LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d)">
             <summary>
 Transform pointcloud from Eye to Base
