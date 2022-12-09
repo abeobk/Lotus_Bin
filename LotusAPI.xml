@@ -266,6 +266,35 @@ Load profile from scanner memory
 </summary>
             <param name="profile_name">Profile name</param>
         </member>
+        <member name="M:LotusAPI.MV.Mesh.WriteSTL(System.String)">
+            <summary>
+Write mesh to STL file
+</summary>
+            <param name="filename">File name</param>
+        </member>
+        <member name="M:LotusAPI.MV.Mesh.ReadSTL(System.String)">
+            <summary>
+Read a mesh from STL file
+</summary>
+            <param name="filename">file name</param>
+            <returns>Mesh</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Utils.CollisionCheck(LotusAPI.MV.GObject[],LotusAPI.MV.GObject[])">
+            <summary>
+Check if any of the meshes in objs1 collides with any of the meshes in objs2
+</summary>
+            <param name="objs1">mesh array 1</param>
+            <param name="objs2">mesh array 2</param>
+            <returns>True if collision found</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Utils.CollisionCheck(LotusAPI.MV.GObject,LotusAPI.MV.GObject)">
+            <summary>
+Check if mesh obj1 collides with mesh obj2
+</summary>
+            <param name="obj1">mesh 1</param>
+            <param name="obj2">mesh 2</param>
+            <returns>True if obj1 collides with obj2</returns>
+        </member>
         <member name="M:LotusAPI.MV.Utils.ComputeBestOverlapTransform(LotusAPI.MV.Pointcloud,LotusAPI.MV.Pointcloud,LotusAPI.Math.Matrix44d,LotusAPI.Math.Line3d,System.UInt32[],System.Double,System.Double,System.Double,System.Single,System.Int32)">
             <summary>
 Compute best overlap transform
