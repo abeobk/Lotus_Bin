@@ -279,6 +279,14 @@ Read a mesh from STL file
             <param name="filename">file name</param>
             <returns>Mesh</returns>
         </member>
+        <member name="M:LotusAPI.MV.Utils.CollisionCheck(LotusAPI.MV.GObject,LotusAPI.MV.GObject[])">
+            <summary>
+Check if obj collides with any of the meshes in other_objs
+</summary>
+            <param name="obj">mesh</param>
+            <param name="other_objs">other mesh array</param>
+            <returns>True if collision found</returns>
+        </member>
         <member name="M:LotusAPI.MV.Utils.CollisionCheck(LotusAPI.MV.GObject[],LotusAPI.MV.GObject[])">
             <summary>
 Check if any of the meshes in objs1 collides with any of the meshes in objs2
@@ -344,6 +352,263 @@ Read a pointcloud from PLY file
 </summary>
             <param name="filename">file name</param>
             <returns>Pointcloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneCount(LotusAPI.Math.Plane3f,System.Single)">
+            <summary>
+Count number of points near a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="delta">Range</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneCount(LotusAPI.Math.Plane3d,System.Single)">
+            <summary>
+Count number of points near a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="delta">Range</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneCount(LotusAPI.Math.Plane3f,LotusAPI.Math.Vector3f,System.Single,System.Single)">
+            <summary>
+Count number of points near a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="direction">Direction</param>
+            <param name="min_dist">Minimum distance</param>
+            <param name="max_dist">Maximum distance</param>
+            <returns>Number of points in range</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneCount(LotusAPI.Math.Plane3d,LotusAPI.Math.Vector3d,System.Single,System.Single)">
+            <summary>
+Count number of points near a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="direction">Direction</param>
+            <param name="min_dist">Minimum distance</param>
+            <param name="max_dist">Maximum distance</param>
+            <returns>Number of points in range</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneClip(LotusAPI.Math.Plane3f,System.Single)">
+            <summary>
+Get pointcloud near a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="delta">Range</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneClip(LotusAPI.Math.Plane3d,System.Single)">
+            <summary>
+Get pointcloud near plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="delta">Range</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.PlaneClip(LotusAPI.Math.Plane3f,LotusAPI.Math.Vector3f,System.Single,System.Single)">
+            <summary>
+Trim the cloud using a plane
+</summary>
+            <param name="plane">Plane</param>
+            <param name="direction">Trim direction</param>
+            <param name="min_dist">Minimum distance</param>
+            <param name="max_dist">Maximum distance</param>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ComputePCA">
+            <summary>
+Compute PCA matrix
+</summary>
+            <returns>PCA matrix</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.GetPoints">
+            <summary>
+Get points in cloud
+</summary>
+            <returns>Point array</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Combine(LotusAPI.MV.Pointcloud[])">
+            <summary>
+Combine multiple clouds into one cloud
+</summary>
+            <param name="clouds">Array of clouds</param>
+            <returns>Combined cloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.FromMesh(LotusAPI.MV.GObject,System.Single,System.Int32)">
+            <summary>
+Sample pointcloud from given mesh
+</summary>
+            <param name="mesh">Mesh</param>
+            <param name="point_dist">Sampling radius</param>
+            <param name="thread_count">Number of threads</param>
+            <returns>Sampled pointcloud</returns>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.PointCount">
+            <summary>
+Get valid point count
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.GetNormalMap">
+            <summary>
+Get Normal map image
+</summary>
+            <returns />
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.GetImage(System.String)">
+            <summary>
+Get layer image
+</summary>
+            <param name="layer_name">Layer name</param>
+            <returns>Layer image</returns>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.ShadeImage">
+            <summary>
+Get Shade image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.FaceMat">
+            <summary>
+Get Face image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.ColorMat">
+            <summary>
+Get Color image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.StateMat">
+            <summary>
+Get State image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.NormalMat">
+            <summary>
+Get State image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.VertexMat">
+            <summary>
+Get Vertex image
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.HasFace">
+            <summary>
+Return true if pointcloud has Face component
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.HasShade">
+            <summary>
+Return true if pointcloud has Shade component
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.HasState">
+            <summary>
+Return true if pointcloud has State component
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.HasColor">
+            <summary>
+Return true if pointcloud has Color component
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.Pointcloud.HasNormal">
+            <summary>
+Return true if pointcloud has Normal component
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.MakeClone">
+            <summary>
+Make a cloned pointcloud 
+</summary>
+            <returns>Cloned pointcloud</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.Clone">
+            <summary>
+Clone a pointcloud
+</summary>
+            <returns>Graphic object</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ValidIndices">
+            <summary>
+Get indices valid points
+</summary>
+            <returns>Indices of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ComputeUniformSamples(System.Single)">
+            <summary>
+Get indices of uniformly sampled points
+</summary>
+            <param name="radius">Sample radius</param>
+            <returns>Indices of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ComputeConnectedComponents(System.Single,System.Int32)">
+            <summary>
+Get indices of connected components
+</summary>
+            <param name="max_dist">Maximum distance within a component</param>
+            <param name="min_length">Minimum component size</param>
+            <returns>Indices of connected components</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ComputeEdgePoints(System.Int32,System.Single,System.Int32)">
+            <summary>
+Get indcies of edge points
+</summary>
+            <param name="knn">Minimum number of neighbour points</param>
+            <param name="angle_threshold">Minimum neighbour angle</param>
+            <param name="thread_count">Number of threads</param>
+            <returns>Indices poitns</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.GetPointsInSphere(LotusAPI.Math.Vector3f,System.Single)">
+            <summary>
+Get indices of points inside a sphere
+</summary>
+            <param name="center">Sphere center</param>
+            <param name="radius">Sphere radius</param>
+            <returns>Indices of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.GetPointsInSphere(LotusAPI.Math.Point3f,System.Single)">
+            <summary>
+Get indices of points inside a sphere
+</summary>
+            <param name="center">Sphere center</param>
+            <param name="radius">Sphere radius</param>
+            <returns>Indices of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.RadiusCount(LotusAPI.Math.Vector3f,System.Single)">
+            <summary>
+Count number of points inside a sphere
+</summary>
+            <param name="center">Sphere center</param>
+            <param name="radius">Sphere radius</param>
+            <returns>Number of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.RadiusCount(LotusAPI.Math.Point3f,System.Single)">
+            <summary>
+Count number of points inside a sphere
+</summary>
+            <param name="center">Sphere center</param>
+            <param name="radius">Sphere radius</param>
+            <returns>Number of points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.ValidVertexCount">
+            <summary>
+Count number of valid vertices
+</summary>
+            <returns>Number of valid vertices</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.CountOverlap(LotusAPI.MV.Pointcloud,System.Single,System.Int32)">
+            <summary>
+Count overlap between two clouds (with custom matrices)
+</summary>
+            <param name="dst_cloud">Destination cloud</param>
+            <param name="radius">Overlap radius</param>
+            <param name="thread_count">Number of threads</param>
+            <returns>Number of overlaped points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.Pointcloud.CountOverlap(LotusAPI.MV.Pointcloud,System.UInt32[],System.Single,System.Int32)">
+            <summary>
+Count overlap between two clouds (with custom matrices)
+</summary>
+            <param name="dst_cloud">Destination cloud</param>
+            <param name="src_samples">Source samples</param>
+            <param name="radius">Overlap radius</param>
+            <param name="thread_count">Number of threads</param>
+            <returns>Number of overlaped points</returns>
         </member>
         <member name="M:LotusAPI.MV.Pointcloud.Extract(LotusAPI.Math.Rect2i)">
             <summary>
