@@ -193,21 +193,21 @@ Transform pointcloud from Eye to Base
             <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Pointcloud in base coordinate</returns>
         </member>
-        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2CC(LotusAPI.Math.Matrix44d)">
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.Eye2CC(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to CC matrix
 </summary>
             <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Eye to CC matrix</returns>
         </member>
-        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2UF(LotusAPI.Math.Matrix44d)">
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.Eye2UF(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to UF matrix
 </summary>
             <param name="robot_pose">Robot pose matrix if Eye-On-Hand, otherwise null</param>
             <returns>Eye to UF matrix</returns>
         </member>
-        <member name="M:LotusAPI.Robotics.HandEyeSystem.GetEye2Base(LotusAPI.Math.Matrix44d)">
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.Eye2Base(LotusAPI.Math.Matrix44d)">
             <summary>
 Get Eye to Base matrix
 </summary>
@@ -259,6 +259,154 @@ Read hand eye calibration data from json file
             <summary>
 Initialize hand eye system
 </summary>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.ReadFile(System.String)">
+            <summary>
+Read from file
+</summary>
+            <param name="file">File name</param>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.WriteFile(System.String)">
+            <summary>
+Write to file
+</summary>
+            <param name="file">File name</param>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.Find(LotusAPI.MV.Image)">
+            <summary>
+Find result in image
+</summary>
+            <param name="img">image</param>
+            <returns>Array of result</returns>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.Add(LotusAPI.MV.PatternSearch2D)">
+            <summary>
+Add a detector
+</summary>
+            <param name="detector" />
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.Remove(System.Int32)">
+            <summary>
+Remove detector at given index with bound check
+</summary>
+            <param name="idx">Index</param>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.Clear">
+            <summary>
+Clear detector list
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.SetDetector(System.Int32,LotusAPI.MV.PatternSearch2D)">
+            <summary>
+Set detector at given index with bound check
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.GetDetector(System.Int32)">
+            <summary>
+Get detector at given index with bound check
+</summary>
+            <param name="idx">Index</param>
+            <returns>Detector</returns>
+        </member>
+        <member name="P:LotusAPI.MV.MultiPatternSearch2D.Trained">
+            <summary>
+Return true if at least one detector is trained
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.MultiPatternSearch2D.Count">
+            <summary>
+Number of detectors
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.Result.Draw(LotusAPI.MV.Image,System.Int32,System.Boolean,System.Int32)">
+            <summary>
+Draw result
+</summary>
+            <param name="cimg">Image to draw</param>
+            <param name="axis_len">Axis length</param>
+            <param name="show_text">True to show text</param>
+            <param name="text_height">Text height</param>
+        </member>
+        <member name="P:LotusAPI.MV.MultiPatternSearch2D.Result.Data">
+            <summary>
+Result data
+</summary>
+        </member>
+        <member name="P:LotusAPI.MV.MultiPatternSearch2D.Result.Detector">
+            <summary>
+The detector that found this result
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.ReadFromFile(System.String)">
+            <summary>
+Create from file
+</summary>
+            <param name="file">File path</param>
+            <returns>Detector</returns>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.ReadFile(System.String)">
+            <summary>
+Read from file
+</summary>
+            <param name="file">file path</param>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.WriteFile(System.String)">
+            <summary>
+Write to file
+</summary>
+            <param name="file">File path</param>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.DeepClone">
+            <summary>
+Perform a deep clone
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.GetEdgePoints(LotusAPI.MV.Image,LotusAPI.MV.Image)">
+            <summary>
+Get edge points
+</summary>
+            <param name="img">Image</param>
+            <param name="mask">Mask</param>
+            <returns>Array of oriented edge points</returns>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Draw(LotusAPI.MV.Image,LotusAPI.MV.PatternSearch2D.Result)">
+            <summary>
+Draw result
+</summary>
+            <param name="img">Image</param>
+            <param name="result">Result</param>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Draw(LotusAPI.MV.Image,LotusAPI.MV.PatternSearch2D.Result,System.Int32,System.Boolean,System.Int32)">
+            <summary>
+Draw result
+</summary>
+            <param name="img">Image</param>
+            <param name="result">Result</param>
+            <param name="axislen">Axis length</param>
+            <param name="show_text">True to show text</param>
+            <param name="fontsize">Text height</param>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Find(LotusAPI.MV.Image)">
+            <summary>
+Find result in image
+</summary>
+            <param name="img">Image</param>
+            <returns>Array of results</returns>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Train(LotusAPI.MV.Image,LotusAPI.Math.Point2f)">
+            <summary>
+Train model
+</summary>
+            <param name="gimg">Model image</param>
+            <param name="model_origin">Origin point in model image</param>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Train(LotusAPI.MV.Image,LotusAPI.MV.Image,LotusAPI.Math.Point2f)">
+            <summary>
+Train model
+</summary>
+            <param name="gimg">Model image</param>
+            <param name="mask">Model mask</param>
+            <param name="model_origin">Origin point in model image</param>
         </member>
         <member name="M:LotusAPI.MV.AbeoScan.LoadProfile(System.String)">
             <summary>
