@@ -272,6 +272,11 @@ Write to file
 </summary>
             <param name="file">File name</param>
         </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.DeepClone">
+            <summary>
+Create a deep clone
+</summary>
+        </member>
         <member name="M:LotusAPI.MV.MultiPatternSearch2D.Find(LotusAPI.MV.Image)">
             <summary>
 Find result in image
@@ -300,6 +305,18 @@ Clear detector list
             <summary>
 Set detector at given index with bound check
 </summary>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.SetDetectors(LotusAPI.MV.PatternSearch2D[])">
+            <summary>
+Set detectors
+</summary>
+            <param name="detectors">Array of detectors</param>
+        </member>
+        <member name="M:LotusAPI.MV.MultiPatternSearch2D.GetDetectors">
+            <summary>
+Get detector array
+</summary>
+            <returns>Detector array</returns>
         </member>
         <member name="M:LotusAPI.MV.MultiPatternSearch2D.GetDetector(System.Int32)">
             <summary>
@@ -358,7 +375,7 @@ Write to file
         </member>
         <member name="M:LotusAPI.MV.PatternSearch2D.DeepClone">
             <summary>
-Perform a deep clone
+Create a deep clone
 </summary>
         </member>
         <member name="M:LotusAPI.MV.PatternSearch2D.GetEdgePoints(LotusAPI.MV.Image,LotusAPI.MV.Image)">

@@ -472,6 +472,22 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:LotusAPI.HW.Utils.OptimizeBandwidth(LotusAPI.HW.CameraDevice[])">
+            <summary>
+            Automatically optimize camera array bandwidth parameters
+            Default Packetsize = 9000 (saved in Registry)
+            Default ReservePercent = 10 (saved in Registry)
+            </summary>
+            <param name="cams">Camera array</param>
+        </member>
+        <member name="M:LotusAPI.HW.Utils.OptimizeBandwidth(LotusAPI.HW.CameraDevice[],System.Int32,System.Single)">
+            <summary>
+            Automatically optimize camera array bandwidth parameters
+            </summary>
+            <param name="cams">Camera array</param>
+            <param name="packet_size">Packet size</param>
+            <param name="reserve_percent">Reserve size</param>
+        </member>
         <member name="M:LotusAPI.HW.Utils.ApplyScannerSetting(LotusAPI.MV.AbeoScan,LotusAPI.Json,System.String)">
             <summary>
             Apply a Scanner profile from json data
