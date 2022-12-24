@@ -378,6 +378,20 @@ Write to file
 Create a deep clone
 </summary>
         </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.Mix(LotusAPI.MV.Image,LotusAPI.MV.Image)">
+            <summary>
+Mix model image and mask to a single image
+</summary>
+            <param name="model">Model image</param>
+            <param name="mask">Mask image</param>
+            <returns>Mixed image</returns>
+        </member>
+        <member name="M:LotusAPI.MV.PatternSearch2D.GetModelThumbnail">
+            <summary>
+Get model Thumbnail image
+</summary>
+            <returns>Image</returns>
+        </member>
         <member name="M:LotusAPI.MV.PatternSearch2D.GetEdgePoints(LotusAPI.MV.Image,LotusAPI.MV.Image)">
             <summary>
 Get edge points
