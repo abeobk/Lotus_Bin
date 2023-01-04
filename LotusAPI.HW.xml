@@ -138,12 +138,87 @@
             Memory block
             </summary>
         </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Data">
+            <summary>
+            Memory block data buffer
+            </summary>
+        </member>
         <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Item(System.Int32)">
             <summary>
             Get byte at given index
             </summary>
             <param name="idx">index</param>
             <returns>byte value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetChar(System.Int32)">
+            <summary>
+            Get char at given index
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetByte(System.Int32)">
+            <summary>
+            Get byte at given index
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetInt16(System.Int32)">
+            <summary>
+            Get Int16 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetUInt16(System.Int32)">
+            <summary>
+            Get UInt16 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetInt32(System.Int32)">
+            <summary>
+            Get Int32 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetUInt32(System.Int32)">
+            <summary>
+            Get UInt32 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetInt64(System.Int32)">
+            <summary>
+            Get Int64 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetUInt64(System.Int32)">
+            <summary>
+            Get UInt64 value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetFloat(System.Int32)">
+            <summary>
+            Get float value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetDouble(System.Int32)">
+            <summary>
+            Get double value at given byte index with selected endian
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
         </member>
         <member name="M:LotusAPI.HW.IPLC.MemoryBlock.op_Equality(LotusAPI.HW.IPLC.MemoryBlock,LotusAPI.HW.IPLC.MemoryBlock)">
             <summary>
@@ -161,6 +236,54 @@
         <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Length">
             <summary>
             Memory block length
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.DataEndian">
+            <summary>
+            Data endianess
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.DataBCDType">
+            <summary>
+            Data BCD format (packed: 2 numbers/byte, unpacked: 1 number/byte)
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.UserStringType">
+            <summary>
+            Specified user string converter
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.Monitoring">
+            <summary>
+            If set to TRUE, the block will be monitored
+            MemoryBlockChangedEvent will be fired if block's data is changed
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.UserString">
+            <summary>
+            Get user string
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.StringContents">
+            <summary>
+            Get String content
+            </summary>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.AsciiContents">
+            <summary>
+            Get ASCII string content
+            </summary>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetAsciiContent(System.Boolean)">
+            <summary>
+            Get ASCII string
+            </summary>
+            <param name="null_terminated">If false, skip null character</param>
+            <returns>ASCII string</returns>
+        </member>
+        <member name="P:LotusAPI.HW.IPLC.MemoryBlock.BCDString">
+            <summary>
+            Get BCD string content
             </summary>
         </member>
         <member name="P:LotusAPI.HW.IPLC.Setting">
