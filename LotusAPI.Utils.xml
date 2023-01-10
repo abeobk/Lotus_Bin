@@ -345,6 +345,7 @@
         <member name="T:LotusAPI.Utils.UnstoppableTaskQueue">
             <summary>
             Asynchronous task queue
+            Order may not be guaranteed
             </summary>
         </member>
         <member name="T:LotusAPI.ChecksumUtils">
