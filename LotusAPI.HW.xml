@@ -4,6 +4,19 @@
         <name>LotusAPI.HW</name>
     </assembly>
     <members>
+        <member name="M:LotusAPI.HW.AbeoScanManager.Init(System.Int32,System.String,System.String)">
+            <summary>
+            Initialize and connect all scanners
+            </summary>
+            <param name="setting_profile">Profile name</param>
+        </member>
+        <member name="M:LotusAPI.HW.AbeoScanManager.Connect(System.Int32,System.String)">
+            <summary>
+            Manually connect a scanner 
+            </summary>
+            <param name="idx"></param>
+            <param name="profile">scanner profile</param>
+        </member>
         <member name="M:LotusAPI.HW.CameraCaptureThread.ResumeRestart">
             <summary>
             Restart capture with t=0
@@ -219,6 +232,74 @@
             </summary>
             <param name="idx">Byte index</param>
             <returns>Value</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetData(System.Byte[],System.Int32)">
+            <summary>
+            Set internal data buffer
+            </summary>
+            <param name="input_buf">input buffer</param>
+            <param name="input_start">input buffer starting index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetData(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Set internal data buffer
+            </summary>
+            <param name="input_buf">input buffer</param>
+            <param name="input_start">input buffer starting index</param>
+            <param name="data_start">Data buffer starting index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetInt16(System.Int16,System.Int32)">
+            <summary>
+            Set Int16 value starting at given index with
+            </summary>
+            <param name="value">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetUInt16(System.UInt16,System.Int32)">
+            <summary>
+            Set UInt16 value starting at given index with
+            </summary>
+            <param name="value">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:LotusAPI.HW.IPLC.MemoryBlock.SetInt32(System.Int32,System.Int32)" -->
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetUInt32(System.UInt32,System.Int32)">
+            <summary>
+            Set UInt32 value starting at given index with
+            </summary>
+            <param name="value">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:LotusAPI.HW.IPLC.MemoryBlock.SetInt64(System.Int64,System.Int32)" -->
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetUInt64(System.UInt64,System.Int32)">
+            <summary>
+            Set UInt64 value starting at given index with
+            </summary>
+            <param name="value">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:LotusAPI.HW.IPLC.MemoryBlock.SetFloat(System.Single,System.Int32)" -->
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetDouble(System.Double,System.Int32)">
+            <summary>
+            Set Double value starting at given index with
+            </summary>
+            <param name="value">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
+        </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.SetAsciiString(System.String,System.Int32)">
+            <summary>
+            Set Ascii string starting at given index with
+            </summary>
+            <param name="ascii_string">Value</param>
+            <param name="start">Start index</param>
+            <returns>True if Data buffer is changed</returns>
         </member>
         <member name="M:LotusAPI.HW.IPLC.MemoryBlock.op_Equality(LotusAPI.HW.IPLC.MemoryBlock,LotusAPI.HW.IPLC.MemoryBlock)">
             <summary>
