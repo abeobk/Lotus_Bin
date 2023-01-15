@@ -519,6 +519,11 @@
             <param name="name"></param>
             <returns></returns>
         </member>
+        <member name="M:LotusAPI.HW.PinMap.GetSubPinMap(System.String)">
+            <summary>
+            Get sub pinmap with given prefix
+            </summary>
+        </member>
         <member name="M:LotusAPI.HW.PinMap.Add(LotusAPI.HW.PinInfo)">
             <summary>
             Add a pin
