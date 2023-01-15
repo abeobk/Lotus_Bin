@@ -342,6 +342,11 @@
             Blocking FIFO serial task queue
             </summary>
         </member>
+        <member name="M:LotusAPI.Utils.SerialQueue.Wait">
+            <summary>
+            Wait for the queue to finish execution
+            </summary>
+        </member>
         <member name="T:LotusAPI.Utils.UnstoppableTaskQueue">
             <summary>
             Asynchronous task queue
