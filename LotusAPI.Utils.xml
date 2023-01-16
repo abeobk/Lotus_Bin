@@ -337,20 +337,9 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="T:LotusAPI.Utils.SerialQueue">
+        <member name="T:LotusAPI.Utils.SerialTaskQueue">
             <summary>
             Blocking FIFO serial task queue
-            </summary>
-        </member>
-        <member name="M:LotusAPI.Utils.SerialQueue.Wait">
-            <summary>
-            Wait for the queue to finish execution
-            </summary>
-        </member>
-        <member name="T:LotusAPI.Utils.UnstoppableTaskQueue">
-            <summary>
-            Asynchronous task queue
-            Order may not be guaranteed
             </summary>
         </member>
         <member name="T:LotusAPI.ChecksumUtils">
