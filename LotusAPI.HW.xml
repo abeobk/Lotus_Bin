@@ -362,6 +362,13 @@
             <param name="null_terminated">If false, skip null character</param>
             <returns>ASCII string</returns>
         </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetAscii16Content(System.Boolean)">
+            <summary>
+            Get ASCII 16 string (ASCII string with 16 bit Endian)
+            </summary>
+            <param name="null_terminated">If false, skip null character</param>
+            <returns>ASCII string</returns>
+        </member>
         <member name="P:LotusAPI.HW.IPLC.MemoryBlock.BCDString">
             <summary>
             Get BCD string content
