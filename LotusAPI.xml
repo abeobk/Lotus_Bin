@@ -349,6 +349,11 @@ Draw result
 Result data
 </summary>
         </member>
+        <member name="P:LotusAPI.MV.MultiPatternSearch2D.Result.DetectorIndex">
+            <summary>
+The index of the detector that found this result
+</summary>
+        </member>
         <member name="P:LotusAPI.MV.MultiPatternSearch2D.Result.Detector">
             <summary>
 The detector that found this result
