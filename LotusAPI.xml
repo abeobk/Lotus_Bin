@@ -391,11 +391,12 @@ Mix model image and mask to a single image
             <param name="mask">Mask image</param>
             <returns>Mixed image</returns>
         </member>
-        <member name="M:LotusAPI.MV.PatternSearch2D.GetModelThumbnail">
+        <member name="M:LotusAPI.MV.PatternSearch2D.GetModelThumbnail(System.Int32)">
             <summary>
 Get model Thumbnail image
 </summary>
-            <returns>Image</returns>
+            <param name="mask_fill_rate">-1 for flood fill, 0,1,2,3,4,5,6,7,8,9 for other fill rate</param>
+            <returns>ThumbnailImage</returns>
         </member>
         <member name="M:LotusAPI.MV.PatternSearch2D.GetEdgePoints(LotusAPI.MV.Image,LotusAPI.MV.Image)">
             <summary>
