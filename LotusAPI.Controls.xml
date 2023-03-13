@@ -45,56 +45,18 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:LotusAPI.Controls.FormAbeoscanConnect">
-            <summary>   A form abeo scanner connect. </summary>
-            <seealso cref="T:System.Windows.Forms.Form"/>
-        </member>
-        <member name="F:LotusAPI.Controls.FormAbeoscanConnect.components">
+        <member name="F:LotusAPI.Controls.Dialogs.AlarmDialog.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:LotusAPI.Controls.FormAbeoscanConnect.Dispose(System.Boolean)">
+        <member name="M:LotusAPI.Controls.Dialogs.AlarmDialog.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:LotusAPI.Controls.FormAbeoscanConnect.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="F:LotusAPI.Controls.FormAddJsonNode.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:LotusAPI.Controls.FormAddJsonNode.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:LotusAPI.Controls.FormAddJsonNode.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="F:LotusAPI.Controls.FormCameraConnect.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:LotusAPI.Controls.FormCameraConnect.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:LotusAPI.Controls.FormCameraConnect.InitializeComponent">
+        <member name="M:LotusAPI.Controls.Dialogs.AlarmDialog.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -187,6 +149,61 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:LotusAPI.Controls.Dialogs.FormPatternSearch2DEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LotusAPI.Controls.FormAbeoscanConnect">
+            <summary>   A form abeo scanner connect. </summary>
+            <seealso cref="T:System.Windows.Forms.Form"/>
+        </member>
+        <member name="F:LotusAPI.Controls.FormAbeoscanConnect.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Controls.FormAbeoscanConnect.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Controls.FormAbeoscanConnect.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Controls.FormAddJsonNode.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Controls.FormAddJsonNode.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Controls.FormAddJsonNode.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LotusAPI.Controls.FormCameraConnect.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LotusAPI.Controls.FormCameraConnect.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LotusAPI.Controls.FormCameraConnect.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
