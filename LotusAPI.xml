@@ -19,6 +19,21 @@ Get/set CC.XX point
 Get/set CC.ORG point
 </summary>
         </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFxyBase">
+            <summary>
+Get/set UF.XY point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFxxBase">
+            <summary>
+Get/set UF.XX point
+</summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UForgBase">
+            <summary>
+Get/set UF.ORG point
+</summary>
+        </member>
         <member name="P:LotusAPI.Robotics.HandEyeSystem.UFxy">
             <summary>
 Get/set UF.XY point
