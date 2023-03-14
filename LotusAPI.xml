@@ -2504,10 +2504,6 @@ Log a message with specified log level
             <param name="level">log level</param>
             <param name="message">message</param>
         </member>
-        <member name="M:LotusAPI.Logger.SetLogTimeFormat(LotusAPI.LogTimeFormat)">
-            <summary />
-            <param name="format" />
-        </member>
         <member name="M:LotusAPI.Logger.Info(System.String)">
             <summary>
 Log an info message
@@ -2573,6 +2569,20 @@ Register a logger
 </summary>
             <param name="logger">The logger</param>
             <param name="level">Log levels</param>
+        </member>
+        <member name="M:LotusAPI.Logger.SetLogTimeFormat(LotusAPI.LogTimeFormat)">
+            <summary>
+This function is obsolete
+</summary>
+            <param name="format" />
+        </member>
+        <member name="M:LotusAPI.Logger.GetLogTime(System.DateTime,LotusAPI.LogTimeFormat)">
+            <summary>
+Convert date to string
+</summary>
+            <param name="date">Input date time</param>
+            <param name="format">String format</param>
+            <returns>date time string</returns>
         </member>
         <member name="M:Lotus.Net.TcpClient.getClassName">
 IObject
@@ -15754,7 +15764,7 @@ Data
         <member name="M:Lotus.AlgorithmBase.getInterfaces">
 IObject
 </member>
-        <member name="M:Lotus.ILogger.log(Lotus.ILogger.Level,std.basic_string&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator&lt;System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte&gt;&gt;!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*)">
+        <member name="M:Lotus.ILogger.log(Lotus.ILogger.Level,Lotus.DateTime!System.Runtime.CompilerServices.IsConst*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte!System.Runtime.CompilerServices.IsConst*)">
 Default virtual destructor force creating polymorphism vtable
 Logs the given message.
 \param msg The message.
