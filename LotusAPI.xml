@@ -1312,6 +1312,14 @@ Find best circle with fixed radius in a curve
             <param name="i2">index of right point</param>
             <returns>best circle or failed circle with radius = 0</returns>
         </member>
+        <member name="M:LotusAPI.Math.Utils.Extract(LotusAPI.Math.Point2f[],LotusAPI.Math.Circle)">
+            <summary>
+Extract points in bounds
+</summary>
+            <param name="pnts">input points</param>
+            <param name="circle">boundary</param>
+            <returns>points in circle bounds</returns>
+        </member>
         <member name="M:LotusAPI.Math.Utils.Extract(LotusAPI.Math.Point2f[],LotusAPI.Math.Rect2f)">
             <summary>
 Extract points in bounds
