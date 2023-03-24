@@ -1351,6 +1351,12 @@
             </summary>
             <param name="value"></param>
         </member>
+        <member name="M:LotusAPI.ThreadSafeFlag.Add(System.Int32)">
+            <summary>
+            Add 
+            </summary>
+            <param name="value"></param>
+        </member>
         <member name="M:LotusAPI.ThreadSafeFlag.ToString">
             <summary>
             
