@@ -466,6 +466,56 @@ Load profile from scanner memory
 </summary>
             <param name="profile_name">Profile name</param>
         </member>
+        <member name="P:LotusAPI.HW.VideoCapture.Resolution">
+            <summary>
+Video Resolution
+</summary>
+        </member>
+        <member name="P:LotusAPI.HW.VideoCapture.FrameCount">
+            <summary>
+Frame count
+</summary>
+        </member>
+        <member name="P:LotusAPI.HW.VideoCapture.FrameIndex">
+            <summary>
+Frame index
+</summary>
+        </member>
+        <member name="P:LotusAPI.HW.VideoCapture.FPS">
+            <summary>
+FPS
+</summary>
+        </member>
+        <member name="M:LotusAPI.HW.VideoCapture.SetFrameRatio(System.Double)">
+            <summary>
+Set frame aspect ratio
+</summary>
+            <param name="ratio">Frame ratio</param>
+        </member>
+        <member name="M:LotusAPI.HW.VideoCapture.SetFrameMs(System.Double)">
+            <summary>
+Set frame time position
+</summary>
+            <param name="ms">Frame time position</param>
+        </member>
+        <member name="M:LotusAPI.HW.VideoCapture.SetFramePos(System.Int32)">
+            <summary>
+Set frame position
+</summary>
+            <param name="idx">Frame position</param>
+        </member>
+        <member name="M:LotusAPI.HW.VideoCapture.Open(System.String)">
+            <summary>
+Open video file
+</summary>
+            <param name="file">Video file</param>
+        </member>
+        <member name="M:LotusAPI.HW.VideoCapture.Open(System.Int32)">
+            <summary>
+Open video device
+</summary>
+            <param name="id">Device id</param>
+        </member>
         <member name="M:LotusAPI.MV.Mesh.WriteSTL(System.String)">
             <summary>
 Write mesh to STL file
@@ -1336,6 +1386,16 @@ Smooth 3D points
         <member name="M:LotusAPI.Math.Utils.Smooth(LotusAPI.Math.Point2f[],System.Int32)">
             <summary>
 Smooth 3D points 
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(System.Double[],System.Int32)">
+            <summary>
+Smooth 1D array 
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.Smooth(System.Single[],System.Int32)">
+            <summary>
+Smooth 1D array 
 </summary>
         </member>
         <member name="M:LotusAPI.Math.Utils.GaussianSmooth(LotusAPI.Math.Point3f[],System.Int32)">

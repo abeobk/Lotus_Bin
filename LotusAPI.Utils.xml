@@ -543,6 +543,16 @@
             <param name="converter">converter function</param>
             <returns>output array</returns>
         </member>
+        <member name="M:LotusAPI.Collection.Slice_``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            Extract a slice from an array
+            </summary>
+            <typeparam name="T">data type</typeparam>
+            <param name="elems">collection</param>
+            <param name="start">start index</param>
+            <param name="len">length</param>
+            <returns></returns>
+        </member>
         <member name="T:LotusAPI.IOUtils">
             <summary>
             IO utilities
