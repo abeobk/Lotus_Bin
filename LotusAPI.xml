@@ -568,6 +568,9 @@ Compute best overlap transform
             <param name="thread_count">Number of thread used in overlap calculation</param>
             <returns>Best overlap Model-&gt;Scene alignemnt matrix</returns>
         </member>
+        <member name="F:LotusAPI.HW.PhoXiDevice.m_ptr">
+The camera. 
+</member>
         <member name="F:LotusAPI.HW.IntelRealsenseDevice.m_ptr">
 The camera. 
 </member>
