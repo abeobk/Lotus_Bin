@@ -71,7 +71,7 @@ e2183daae5dcbba153746c21e97be4ad06a09d4d *./LotusAPI.Utils.xml
 7accf7673c9c33681e7a07b413b802c5bb89c243 *./lotus_gl_v142_x64.dll
 aca5acda2a53daf2c3f8ebdbef26c123752d1bd3 *./lotus_hw_basler_v142_x64.dll
 32066f29c833b0c9fdb17a5814410367f4a39a16 *./lotus_hw_intel_rs_v142_x64.dll
-6af8da2ea5fbf95837177a3e3a3cf49a2c914455 *./lotus_hw_photoneo_v142_x64.dll
+af7ab406d5b2d4bc15d5d53cefb5037b5223d204 *./lotus_hw_photoneo_v142_x64.dll
 4b7e6d969a28a7fe7046126016557e8727312ad5 *./lotus_hw_ptgrey_v142_x64.dll
 78e792f2ab0acd11b90d965b83767f558ec60e40 *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
@@ -89,7 +89,7 @@ a683257ed6a8f5b1d88bd5266d421a632a47f156 *./NodeMapData_MD_VC141_v3_1_Basler_pyl
 5efdea22ce8c904478a76d8eb238589901b78870 *./ParameterCollection1.dll
 fbd2af5be5b7d13dd7826f9ea4c92698b39d9510 *./PatternSearch2D.exe
 6bf628efcf91c797d3e0083318452292fa0bcaf7 *./photoneo.cti
-33fe8616c51a347f48d565fbc17578d377c56e55 *./PhoXi_API_msvc14_Release_1.9.5.dll
+148395a58a66f1dc6cd26ee30a6fbe5d5cb809be *./PhoXi_API_msvc14_Release_1.10.0.dll
 e55f8da107f133ce0d539fc158611f96991b6949 *./ProducerGEV.cti
 d589e1bf7a2a3611dab0432da14e92945d02a190 *./ProducerU3V.cti
 146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
