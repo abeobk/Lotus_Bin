@@ -1352,7 +1352,7 @@ Find best circle with fixed radius in a curve
             <param name="center_direction">direction of the center from the tangental point</param>
             <returns>best circle or failed circle with radius = 0</returns>
         </member>
-        <member name="M:LotusAPI.Math.Utils.FindCircle(LotusAPI.Math.Point2f[],System.Single,System.Single,LotusAPI.Math.Vector2f,System.Int32@,System.Int32@,System.Int32@)">
+        <member name="M:LotusAPI.Math.Utils.FindCircle(LotusAPI.Math.Point2f[],System.Single,System.Single,LotusAPI.Math.Vector2f,System.Single,System.Int32@,System.Int32@,System.Int32@)">
             <summary>
 Find best circle with fixed radius in a curve 
 </summary>
@@ -1360,6 +1360,7 @@ Find best circle with fixed radius in a curve
             <param name="radius">radius</param>
             <param name="confident_angle_deg">confident angle in degree</param>
             <param name="center_direction">direction of the center from the tangental point</param>
+            <param name="max_angle_err_deg">maximum angular error between center dir and ref center dir</param>
             <param name="i0">index of left point</param>
             <param name="i1">index of tangental point</param>
             <param name="i2">index of right point</param>
