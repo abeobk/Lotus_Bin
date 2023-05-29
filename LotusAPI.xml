@@ -275,6 +275,22 @@ Read hand eye calibration data from json file
 Initialize hand eye system
 </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ChangeUF(LotusAPI.Robotics.UFRefFrame,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
+            <summary>
+Clone Hand-Eye system then change the UF
+</summary>
+            <param name="uf_frame">UF reference frame (Base/ CC)</param>
+            <param name="org">ORG</param>
+            <param name="xx">XX</param>
+            <param name="xy">XY</param>
+            <returns />
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.Clone">
+            <summary>
+Deep clone, user must call Init() to validate the hand-eye system
+</summary>
+            <returns />
+        </member>
         <member name="M:LotusAPI.MV.MultiPatternSearch2D.ReadFile(System.String)">
             <summary>
 Read from file
