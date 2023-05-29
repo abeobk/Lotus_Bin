@@ -54,6 +54,11 @@ Get/set UF.ORG point
 Hand eye matrix from calibration
 </summary>
         </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.EyeMatrix">
+            <summary>
+Eye correction matrix
+</summary>
+        </member>
         <member name="P:LotusAPI.Robotics.HandEyeSystem.CCMatrix">
             <summary>
 CC to Base Matrix
@@ -274,6 +279,15 @@ Read hand eye calibration data from json file
             <summary>
 Initialize hand eye system
 </summary>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.ChangeUF(LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
+            <summary>
+Clone Hand-Eye system then change the UF while keeping UF refrence frame
+</summary>
+            <param name="org">ORG</param>
+            <param name="xx">XX</param>
+            <param name="xy">XY</param>
+            <returns />
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.ChangeUF(LotusAPI.Robotics.UFRefFrame,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f,LotusAPI.Math.Point3f)">
             <summary>
@@ -16149,6 +16163,5 @@ Splits a string.
         <!-- Discarding badly formed XML document comment for member 'M:cv.BackgroundSubtractorMOG2.getComplexityReductionThreshold'. -->
         <!-- Discarding badly formed XML document comment for member 'M:LotusAPI.Logger.StartLogTask'. -->
         <!-- Discarding badly formed XML document comment for member 'M:Lotus.Mv.estimate_global_direct_light(Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,std.vector<Lotus.Mv.Image,std.allocator<Lotus.Mv.Image>>*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced,Lotus.Mv.Image*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)'. -->
-        <!-- Discarding badly formed XML document comment for member 'P:LotusAPI.Robotics.HandEyeSystem.EyeMatrix'. -->
     </members>
 </doc>
