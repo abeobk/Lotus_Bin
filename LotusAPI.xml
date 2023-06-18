@@ -937,6 +937,22 @@ Calculate 3D object point in calibration board frame
             <param name="pose">Calibration board pose</param>
             <returns>Object point</returns>
         </member>
+        <member name="M:LotusAPI.MV.CameraModel.ProjectToPlane(LotusAPI.Math.Point2f,LotusAPI.Math.Plane3f)">
+            <summary>
+Project 2d image point to plane
+</summary>
+            <param name="imgpnt">2D image point</param>
+            <param name="plane">Plane in camera coodinate</param>
+            <returns>Projected point</returns>
+        </member>
+        <member name="M:LotusAPI.MV.CameraModel.ProjectToPlane(LotusAPI.Math.Point2f[],LotusAPI.Math.Plane3f)">
+            <summary>
+Porject 2d image points to plane
+</summary>
+            <param name="imgPnts">2D image point list</param>
+            <param name="plane">Plane in camera coordinate</param>
+            <returns>Projected points</returns>
+        </member>
         <member name="M:LotusAPI.MV.CameraModel.Calc3DPoints(LotusAPI.Math.Point2f[],LotusAPI.Math.Matrix44d)">
             <summary>
 Compute 3d points in camera frame from given 2D image points
