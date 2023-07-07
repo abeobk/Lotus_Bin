@@ -73,12 +73,12 @@ b8c904c12ed0d2ecfa4a2ebe4eabc1624fbf616f *./LotusAPI.xml
 c26e706a633dafcb9f12ea585f598d4847bfc4f3 *./lotus_hw_intel_rs_v142_x64.dll
 6900eed764024fe19c0afdde9be03eca64314b2e *./lotus_hw_photoneo_v142_x64.dll
 de792ce0e40d6ad52ccc104dd4e909411f82ae38 *./lotus_hw_ptgrey_v142_x64.dll
-8987d97f66b0eca9a5f493b1a751c5237091378c *./lotus_hw_ti_v142_x64.dll
+b0c211bf126b721b0b6a840d30ee6668fd5bb651 *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 4e7eb42569785972f73ff5f0f8e1f09ed50a2466 *./lotus_ml_v142_x64.dll
 d0a970a520f398d5752bad0f53a9375020278df8 *./lotus_mv_v142_x64.dll
 48e3938e18460b0b220fa02ed35e500b130c6c3e *./lotus_sim_v142_x64.dll
-d68dbbe3a836233318e4c5b0e072534870c1875c *./lotus_v142_x64.dll
+bd9b4967e06211bdb92d667e9acba1a15a967977 *./lotus_v142_x64.dll
 a8372165ff6bac756dc2d02c6932f369c234f0a2 *./MathParser_MD_VC140_v3_0.dll
 76d8be1b1be69e9c11ad9ea18d644059fd901277 *./MathParser_MD_VC141_v3_1_Basler_pylon.dll
 9e9f4e438023e7f2d835614c12e74fc5ae25e83f *./NodeMapData_MD_VC140_v3_0.dll
