@@ -1,5 +1,5 @@
 6d7fda80c6a6d06c72b016f94e8255ab8aee9a4e *./ABB.Robotics.Controllers.PC.dll
-41dc315ffde94a7c695fac51ccbdbe72a7d88f58 *./Abeo.Controls.dll
+6757a4af89d6361c8d596c89cb906f69441eed39 *./Abeo.Controls.dll
 d54755caae84f1efada6204179a284a83ee90411 *./AbeoJsonEditor.exe
 d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 5428afd96634b2689c765573cb50f68ebcd20987 *./AbeoSIM.exe
@@ -76,7 +76,7 @@ de792ce0e40d6ad52ccc104dd4e909411f82ae38 *./lotus_hw_ptgrey_v142_x64.dll
 b0c211bf126b721b0b6a840d30ee6668fd5bb651 *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 4e7eb42569785972f73ff5f0f8e1f09ed50a2466 *./lotus_ml_v142_x64.dll
-d0a970a520f398d5752bad0f53a9375020278df8 *./lotus_mv_v142_x64.dll
+d307a3675ed4b731ab110e75401fea8fab24034c *./lotus_mv_v142_x64.dll
 48e3938e18460b0b220fa02ed35e500b130c6c3e *./lotus_sim_v142_x64.dll
 bd9b4967e06211bdb92d667e9acba1a15a967977 *./lotus_v142_x64.dll
 a8372165ff6bac756dc2d02c6932f369c234f0a2 *./MathParser_MD_VC140_v3_0.dll
