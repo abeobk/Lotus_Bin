@@ -634,6 +634,12 @@
             <param name="client">TCP client</param>
             <returns>true if alive</returns>
         </member>
+        <member name="M:LotusAPI.NetUtils.FlushStream(System.Net.Sockets.NetworkStream)">
+            <summary>
+            Flush network stream contents
+            </summary>
+            <param name="ns"></param>
+        </member>
         <member name="T:LotusAPI.Net.PacketBuilder">
             <summary>
             Packet builder
