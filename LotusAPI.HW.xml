@@ -4,6 +4,19 @@
         <name>LotusAPI.HW</name>
     </assembly>
     <members>
+        <member name="M:LotusAPI.HW.PhoXiManager.Init(System.Int32,System.String)">
+            <summary>
+            Initialize and connect all scanners
+            </summary>
+            <param name="setting_profile">Profile name</param>
+        </member>
+        <member name="M:LotusAPI.HW.PhoXiManager.Connect(System.Int32)">
+            <summary>
+            Manually connect a scanner 
+            </summary>
+            <param name="idx"></param>
+            <param name="profile">scanner profile</param>
+        </member>
         <member name="M:LotusAPI.HW.AbeoScanManager.Init(System.Int32,System.String,System.String)">
             <summary>
             Initialize and connect all scanners
