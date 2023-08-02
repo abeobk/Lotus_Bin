@@ -721,6 +721,14 @@ Sample pointcloud from given mesh
             <param name="thread_count">Number of threads</param>
             <returns>Sampled pointcloud</returns>
         </member>
+        <member name="M:LotusAPI.MV.Pointcloud.EstimatePlane(System.Single,System.Single)">
+            <summary>
+Estimate plane with normal align
+</summary>
+            <param name="min_coverage">Coverage</param>
+            <param name="band_width">Bandwidth</param>
+            <returns>Plane result</returns>
+        </member>
         <member name="P:LotusAPI.MV.Pointcloud.PointCount">
             <summary>
 Get valid point count
