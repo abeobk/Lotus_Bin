@@ -314,6 +314,12 @@
             Sync object
             </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.Kawasaki.KawasakiRobotClient.GetProgramList">
+            <summary>
+            Get program list
+            </summary>
+            <returns></returns>
+        </member>
         <member name="F:LotusAPI.Robotics.NumberRange.components">
             <summary> 
             Required designer variable.
