@@ -1316,6 +1316,20 @@
             <param name="val"></param>
             <returns></returns>
         </member>
+        <member name="M:LotusAPI.StringUtils.HexStringToByteArray(System.String)">
+            <summary>
+             Convert hex string to byte array 
+            </summary>
+            <param name="hex">hex string</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:LotusAPI.StringUtils.Parse(System.String)">
+            <summary>
+            Parse a string to byte array
+            </summary>
+            <param name="str">data</param>
+            <returns>byte array</returns>
+        </member>
         <member name="T:LotusAPI.ThreadSafeFlag">
             <summary>
             
