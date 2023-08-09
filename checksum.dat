@@ -58,7 +58,7 @@ c0ea859a40b7c88f99d8aa348f74245d0573636f *./LotusAPI.HW.OpcPlc.xml
 c4a2053e5752ae68a5cf8863fe285b89aa0a3aa8 *./LotusAPI.HW.xml
 15e35945ab9e82109ad153840d2f248ec00b08d9 *./LotusAPI.Robotics.ABB.dll
 7b426ec1ccec0ef2e6b00a81f51336de37d5de6e *./LotusAPI.Robotics.ABB.xml
-8b19e198b7405d981ee7bd1128d10731f3540fcc *./LotusAPI.Robotics.dll
+e600133b9f66f373bb9b587cd5dcb4ac62499d8c *./LotusAPI.Robotics.dll
 1714b9b651bc346b8791f362078c169e27984564 *./LotusAPI.Robotics.Fanuc.dll
 cbc0c1ea43de88883a115c6dfeed6c8d5bd17cc9 *./LotusAPI.Robotics.Fanuc.xml
 3c75318106f997f10f6e876a21c97eeaee3a33a2 *./LotusAPI.Robotics.HRLib.dll
