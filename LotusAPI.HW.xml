@@ -17,6 +17,11 @@
             <param name="idx"></param>
             <param name="profile">scanner profile</param>
         </member>
+        <member name="P:LotusAPI.HW.AbeoScanManager.Count">
+            <summary>
+            Get number of scanner
+            </summary>
+        </member>
         <member name="M:LotusAPI.HW.AbeoScanManager.Init(System.Int32,System.String,System.String)">
             <summary>
             Initialize and connect all scanners
