@@ -34,8 +34,8 @@ e1f962ca096329a56b930863e3663027703aef6b *./GCBase_MD_VC141_v3_1_Basler_pylon.dl
 7de025a64d0ceba125263bd68493ab87331c76b5 *./HRRpcProxy_x64.dll
 264dd3652922b87291f7f4ecd16db1bb80e010e1 *./ipconfigurator.exe
 f8835733fac49a198e77aace145cd71f33f62720 *./libiomp5md.dll
-ed86e6c3505ed8eebd0c6580e2b794d10922b541 *./libplctag.dll
-b96ef8b1c87dead2573cbab14d6def18f9c64ffc *./libplctag.NativeImport.dll
+c86d21f719869b197a55fd86ed59e9323c20fc86 *./libplctag.dll
+9993bbc632c6201884928d6360df04bfadcdf359 *./libplctag.NativeImport.dll
 3250448019eb8e387b5b7f0fab43bae3e732cc95 *./log4cpp.gentl.property
 4d7ae0eb6917dfa19cd6783432fe6456646b77f8 *./log4cpp.spinnaker.property
 3e64276a1508335c77ad43eac03875c3580f6fd4 *./log4cpp_MD_VC140_v3_0.dll
@@ -49,7 +49,7 @@ f5ad6532b463ff6cdd6e162e44985fef848b13bf *./LotusAPI.Controls.dll
 7e0232d4d752dd60979eae9ff701d92e17204a3e *./LotusAPI.Data.dll
 6252372f17af5dfb290b982d9724ba6648b374ab *./LotusAPI.Data.xml
 7214101074009489518443e981cd7bf997864ad4 *./LotusAPI.dll
-75b4eba7965398a3e552c3b44508fc0391caa463 *./LotusAPI.HW.ABPLC.dll
+356deceeac814a2b5cb6e2b6f23d6ed2c2174aa0 *./LotusAPI.HW.ABPLC.dll
 c198645f3bd014a7657e2a6cd0bf38379c729c2c *./LotusAPI.HW.dll
 bcbad7db60c24c648548df9e46e417d3e8244d34 *./LotusAPI.HW.FujiPLC.dll
 df6a83e694855751b5b9b85e7f90e2c891496998 *./LotusAPI.HW.FujiPLC.xml
@@ -91,6 +91,7 @@ a683257ed6a8f5b1d88bd5266d421a632a47f156 *./NodeMapData_MD_VC141_v3_1_Basler_pyl
 fbd2af5be5b7d13dd7826f9ea4c92698b39d9510 *./PatternSearch2D.exe
 6bf628efcf91c797d3e0083318452292fa0bcaf7 *./photoneo.cti
 148395a58a66f1dc6cd26ee30a6fbe5d5cb809be *./PhoXi_API_msvc14_Release_1.10.0.dll
+52b913472c502a541322db568f3dd3f2ed7db4f5 *./plctag.dll
 e55f8da107f133ce0d539fc158611f96991b6949 *./ProducerGEV.cti
 d589e1bf7a2a3611dab0432da14e92945d02a190 *./ProducerU3V.cti
 146d5faafe7896396bb2eca9aca34b2c45a6b71c *./push.sh
