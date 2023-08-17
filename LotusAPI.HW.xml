@@ -188,6 +188,13 @@
             <param name="idx">Byte index</param>
             <returns>Value</returns>
         </member>
+        <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetSByte(System.Int32)">
+            <summary>
+            Get sbyte at given index
+            </summary>
+            <param name="idx">Byte index</param>
+            <returns>Value</returns>
+        </member>
         <member name="M:LotusAPI.HW.IPLC.MemoryBlock.GetByte(System.Int32)">
             <summary>
             Get byte at given index
