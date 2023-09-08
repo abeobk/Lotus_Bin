@@ -69,12 +69,26 @@ CC to Base Matrix
 UF to Base (or CC depends on UF reference ) Matrix
 </summary>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CC2UF(LotusAPI.Math.Matrix44d)">
+            <summary>
+Change transform basis from CC to UF 
+</summary>
+            <param name="H_cc">CC transform matrix</param>
+            <returns>UF transform matrix</returns>
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.CC2Base(LotusAPI.Math.Matrix44d)">
             <summary>
 Change transform basis from CC to Base
 </summary>
             <param name="H_cc">CC transform matrix</param>
             <returns>Base transform matrix</returns>
+        </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.UF2CC(LotusAPI.Math.Matrix44d)">
+            <summary>
+Change transform basis from UF to CC 
+</summary>
+            <param name="H_uf">UF transform matrix</param>
+            <returns>CCtransform matrix</returns>
         </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.UF2Base(LotusAPI.Math.Matrix44d)">
             <summary>

@@ -1181,5 +1181,70 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="E:ATMC.Common.Vision3DResultView.ShiftButtonClickEvent">
+            <summary>
+            This event will be fired when user click Shift button
+            </summary>
+        </member>
+        <member name="E:ATMC.Common.Vision3DResultView.OffsetButtonClickEvent">
+            <summary>
+            This event will be fired when user click Offset button
+            </summary>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.Reset">
+            <summary>
+            Reset the view
+            </summary>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.SetResult(System.Boolean)">
+            <summary>
+            Set result label
+            </summary>
+            <param name="ok"></param>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.SetShift(LotusAPI.Math.Matrix44d,LotusAPI.Robotics.ShiftLimit)">
+            <summary>
+            Set shift result
+            </summary>
+            <param name="H">Shift matrix</param>
+            <param name="shift_limit">Shift limit</param>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.SetFitness(System.Double,System.Boolean)">
+            <summary>
+            Set Fitness value
+            </summary>
+            <param name="fitness">Fitness value</param>
+            <param name="fitness_ok">Fitness ok/ng</param>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.SetOverlap(System.Double,System.Boolean)">
+            <summary>
+            Set Overlap value
+            </summary>
+            <param name="overlap">Overlap value</param>
+            <param name="overlap_ok">Overlap ok/ng</param>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.SetOffset(LotusAPI.Robotics.ShiftOffset)">
+            <summary>
+            Set Offset value
+            </summary>
+            <param name="offset">Offset value</param>
+        </member>
+        <member name="F:ATMC.Common.Vision3DResultView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATMC.Common.Vision3DResultView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
     </members>
 </doc>
