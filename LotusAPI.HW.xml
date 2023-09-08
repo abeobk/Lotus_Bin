@@ -547,14 +547,71 @@
             </summary>
             <param name="func">Pin function</param>
             <param name="name">Pin name</param>
-            <returns></returns>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="P:LotusAPI.HW.PinMap.Item(LotusAPI.HW.PinFunc,System.Enum)">
+            <summary>
+            Get pin by function and name
+            </summary>
+            <param name="func">Pin function</param>
+            <param name="key">Pin name</param>
+            <returns>Pin if found, else null</returns>
         </member>
         <member name="P:LotusAPI.HW.PinMap.Item(System.String)">
             <summary>
             Get pin by name
             </summary>
-            <param name="name"></param>
-            <returns></returns>
+            <param name="name">Pin name</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="P:LotusAPI.HW.PinMap.Item(System.Enum)">
+            <summary>
+            Get pin by name
+            </summary>
+            <param name="key">Pin name</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetInputPin(System.Int32)">
+            <summary>
+            Get Input pin by pin index
+            </summary>
+            <param name="idx">Pin index</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetInputPin(System.String)">
+            <summary>
+            Get input pin by name
+            </summary>
+            <param name="name">Pin name</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetInputPin(System.Enum)">
+            <summary>
+            Get input pin by key
+            </summary>
+            <param name="key">Pin name</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetOutputPin(System.Int32)">
+            <summary>
+            Get output pin by index 
+            </summary>
+            <param name="idx">Pin index</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetOutputPin(System.String)">
+            <summary>
+            Get output pin by name
+            </summary>
+            <param name="name">Pin name</param>
+            <returns>Pin if found, else null</returns>
+        </member>
+        <member name="M:LotusAPI.HW.PinMap.GetOutputPin(System.Enum)">
+            <summary>
+            Get output pin by key
+            </summary>
+            <param name="key">Pin key</param>
+            <returns>Pin if found, else null</returns>
         </member>
         <member name="M:LotusAPI.HW.PinMap.GetSubPinMap(System.String)">
             <summary>
