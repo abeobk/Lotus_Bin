@@ -591,6 +591,18 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:ATMC.Common.Utils.UpdateHwStatus(Abeo.Controls.ZeroCode.FlatStatusBar,System.Boolean,ATMC.Common.PLCManager,ATMC.Common.RobotManager,LotusAPI.HW.AbeoScanManager,ATMC.Common.CameraManager,LotusAPI.HW.LZManager)">
+            <summary>
+            Update hw status and display on statusbar
+            </summary>
+            <param name="statusbar">The status bar</param>
+            <param name="show_alarm">Show alarm dialog if set to true</param>
+            <param name="plc_man">Plc manager</param>
+            <param name="robot_man">Robot manager</param>
+            <param name="scanner_man">Scanner manager</param>
+            <param name="cam_man">Camera manager</param>
+            <param name="lz_man">Lz manager</param>
+        </member>
         <member name="M:ATMC.Common.VideoViewer.SetPosition(System.Double)">
             <summary>
             Set frame position
