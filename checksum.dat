@@ -1,5 +1,5 @@
 6d7fda80c6a6d06c72b016f94e8255ab8aee9a4e *./ABB.Robotics.Controllers.PC.dll
-daa3416b9be89e703942a33291a004867904b744 *./Abeo.Controls.dll
+3ccafaf629e914d22464a4394bb38f98f6627fa5 *./Abeo.Controls.dll
 104c45d0d206fdd7571208255c2b9cc230e15d37 *./AbeoJsonEditor.exe
 d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 5428afd96634b2689c765573cb50f68ebcd20987 *./AbeoSIM.exe
@@ -108,7 +108,7 @@ c4b621df2f55b09f618579e36946e91767d818e5 *./PylonUtility_v7_2.dll
 9707812baa82de0a3b73df14d802b5bbb78220fd *./PylonViewerComponents6.dll
 c8a7509dfd76499f48e259df221b0e2479601a97 *./PylonViewerHelper6.dll
 2ef23358007cb5bca278b701697a220a55cf5487 *./realsense2.dll
-b11856a78d7de2727d3f94287c77bbc5838ff2fa *./RobotController.exe
+0f1f84967027d648793aa52954050d9d1bfebe87 *./RobotController.exe
 bd11f8e5fd781106ab00ea779ff823f665ec7abe *./RobotStudio.Services.RobApi.Desktop.dll
 2a6bfa09dffedaff6fb6ad8585eb0b35c3fe185e *./RobotStudio.Services.RobApi.dll
 6e583ad59ba4181b0bc66843379cf7a1884fca2e *./S7.Net.dll
