@@ -64,6 +64,11 @@ Eye correction matrix
 CC to Base Matrix
 </summary>
         </member>
+        <member name="P:LotusAPI.Robotics.HandEyeSystem.UFMatrixBase">
+            <summary>
+UF to Base  Matrix
+</summary>
+        </member>
         <member name="P:LotusAPI.Robotics.HandEyeSystem.UFMatrix">
             <summary>
 UF to Base (or CC depends on UF reference ) Matrix
