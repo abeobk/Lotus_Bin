@@ -58,7 +58,7 @@ b249dcf06dc09feab21243f49f31809d392c691f *./LotusAPI.HW.OpcPlc.xml
 b89c2d999901e80d20b2641db7dee0a0181a2154 *./LotusAPI.HW.xml
 15e35945ab9e82109ad153840d2f248ec00b08d9 *./LotusAPI.Robotics.ABB.dll
 7b426ec1ccec0ef2e6b00a81f51336de37d5de6e *./LotusAPI.Robotics.ABB.xml
-3bc4b54bf9ff977615fe12b815ae087833949b82 *./LotusAPI.Robotics.dll
+b4d53bb637eeece6ff601ad125842b1cf05efab8 *./LotusAPI.Robotics.dll
 1714b9b651bc346b8791f362078c169e27984564 *./LotusAPI.Robotics.Fanuc.dll
 cbc0c1ea43de88883a115c6dfeed6c8d5bd17cc9 *./LotusAPI.Robotics.Fanuc.xml
 27b43f6071149d5c17762e968181ab246a00cdb7 *./LotusAPI.Robotics.HRLib.dll
@@ -108,7 +108,7 @@ c4b621df2f55b09f618579e36946e91767d818e5 *./PylonUtility_v7_2.dll
 9707812baa82de0a3b73df14d802b5bbb78220fd *./PylonViewerComponents6.dll
 c8a7509dfd76499f48e259df221b0e2479601a97 *./PylonViewerHelper6.dll
 2ef23358007cb5bca278b701697a220a55cf5487 *./realsense2.dll
-d9729a0dab717615690d072cedfa59948d38b472 *./RobotController.exe
+310a1ac5021602e21659bddf3bb4c8d17de4e7ca *./RobotController.exe
 bd11f8e5fd781106ab00ea779ff823f665ec7abe *./RobotStudio.Services.RobApi.Desktop.dll
 2a6bfa09dffedaff6fb6ad8585eb0b35c3fe185e *./RobotStudio.Services.RobApi.dll
 6e583ad59ba4181b0bc66843379cf7a1884fca2e *./S7.Net.dll
