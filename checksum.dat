@@ -70,7 +70,7 @@ cbc0c1ea43de88883a115c6dfeed6c8d5bd17cc9 *./LotusAPI.Robotics.Fanuc.xml
 572a32bc5e8025f9062957a9730443ca29c76258 *./LotusAPI.Utils.xml
 46a6391e60ad17ebb4fa074e5706455beee53e7d *./LotusAPI.xml
 d49a6443c97d546c6f89b87e66549b7907bb8dd8 *./lotus_gl_v142_x64.dll
-46258482f7fd36df52d51b7a3af694c9cf346856 *./lotus_hw_basler_v142_x64.dll
+aeb6a8a655e382d71b011a3b3cc3f143a537367f *./lotus_hw_basler_v142_x64.dll
 d09fa08b1c295a4e79a06cf98bfe0efba4b4ce6f *./lotus_hw_intel_rs_v142_x64.dll
 25c4cf65bb1b8adfa0cb062674260caa67dae538 *./lotus_hw_photoneo_v142_x64.dll
 e605aedfead981c7b1ee61d6ea407c1f60577b2f *./lotus_hw_ptgrey_v142_x64.dll
