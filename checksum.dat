@@ -5,7 +5,7 @@ d12313f9355e66f452653aad8dd6ef603ee6569f *./AbeoMaskEditor.exe
 5428afd96634b2689c765573cb50f68ebcd20987 *./AbeoSIM.exe
 11514dc906b1d3fd93b64a777c9517bd08d76c40 *./abeosim_layout.cfg
 5af9c65aee03db4343d6974d00624d61d193ba48 *./AppCoreComponents1.dll
-d904dcf6a30843fb06f917a890bd77063dd4cd03 *./ATMC.Common.dll
+59bf7a007f5ac88eeba37749a8cb782ddd7aa997 *./ATMC.Common.dll
 cbab9a77b72b4d08e88e5084e0bd33cfa3bfdb8b *./ATMC.Common.xml
 b4af60d038059d8c8533115607e3192a46e0f765 *./ATMC.Common.xml.bak
 c22e9aaad0649e09df6e6460750acc71cd62a10b *./Automation.BDaq4.dll
@@ -77,7 +77,7 @@ e605aedfead981c7b1ee61d6ea407c1f60577b2f *./lotus_hw_ptgrey_v142_x64.dll
 73dba3d16bbf85bcbc04252b32702fae751a2e6f *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 1a0328f17a613730f0c5ee2a9cbb2e12d24a9b5b *./lotus_ml_v142_x64.dll
-076518eff22a8aea1de9b0efadd74639259efa45 *./lotus_mv_v142_x64.dll
+fdd8f47dc827a185365be0a54ff3f27fd28fe968 *./lotus_mv_v142_x64.dll
 12f13607f67837750f19e5dee33f5832705b6365 *./lotus_sim_v142_x64.dll
 c08222a2453243f1883edeb129b6f03cfd2f12d1 *./lotus_v142_x64.dll
 a8372165ff6bac756dc2d02c6932f369c234f0a2 *./MathParser_MD_VC140_v3_0.dll
