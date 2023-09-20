@@ -749,14 +749,14 @@
             <summary>
             Deactivate all pins and activate selected pin (thread safe)
             </summary>
-            <param name="pin"></param>
+            <param name="pin">Pin to update, if this pin is null, the operation does nothing</param>
         </member>
         <member name="M:LotusAPI.HW.UI.IOPinmapView.UpdatePin(LotusAPI.HW.PinInfo,System.Boolean)">
             <summary>
             Update a single pin while keeping others states (thread safe)
             </summary>
-            <param name="pin"></param>
-            <param name="value"></param>
+            <param name="pin">Pin to update, if this pin is null, the operation does nothing</param>
+            <param name="value">Pin value</param>
         </member>
         <member name="F:LotusAPI.HW.UI.IOPinmapView.components">
             <summary> 
