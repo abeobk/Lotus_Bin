@@ -48,7 +48,7 @@ c2a1d529dbaabb7bae14d6f674f44e0025216e4a *./LotusAPI.App.exe
 551f8793e534a3551ede38329bdd93f713edbbc3 *./LotusAPI.Controls.xml
 bcf83778aaf035ed4307d72d44175791c56535f9 *./LotusAPI.Data.dll
 6252372f17af5dfb290b982d9724ba6648b374ab *./LotusAPI.Data.xml
-491c3b3b3152f035a2455261f772f59a7fe8bbdc *./LotusAPI.dll
+d5e10d087f1b42b13b7669e0c761cd7e960d4da3 *./LotusAPI.dll
 8d20bf83a19c7a80f37fd6657434854f29243edb *./LotusAPI.HW.ABPLC.dll
 a379778398ab36ecb0af32c41e6fa8dfe7c7d0ea *./LotusAPI.HW.dll
 bcbad7db60c24c648548df9e46e417d3e8244d34 *./LotusAPI.HW.FujiPLC.dll
@@ -68,7 +68,7 @@ b327154fd02eee29e89f0d77462b8f40e2e18609 *./LotusAPI.Sim.dll
 2b84cf2a9c9617741b4d940c29544fafb838b7ca *./LotusAPI.Sim.xml
 05892a66e1b2f725e2cb61b51d539bef2b50340e *./LotusAPI.Utils.dll
 572a32bc5e8025f9062957a9730443ca29c76258 *./LotusAPI.Utils.xml
-46a6391e60ad17ebb4fa074e5706455beee53e7d *./LotusAPI.xml
+e4d86cfc2b26cb06da01827430bb370341a26b08 *./LotusAPI.xml
 d49a6443c97d546c6f89b87e66549b7907bb8dd8 *./lotus_gl_v142_x64.dll
 aeb6a8a655e382d71b011a3b3cc3f143a537367f *./lotus_hw_basler_v142_x64.dll
 d09fa08b1c295a4e79a06cf98bfe0efba4b4ce6f *./lotus_hw_intel_rs_v142_x64.dll

@@ -743,7 +743,7 @@ Get points in cloud
 Combine multiple clouds into one cloud
 </summary>
             <param name="clouds">Array of clouds</param>
-            <returns>Combined cloud</returns>
+            <returns>Combined cloud or null if all input clouds are null</returns>
         </member>
         <member name="M:LotusAPI.MV.Pointcloud.FromMesh(LotusAPI.MV.GObject,System.Single,System.Int32)">
             <summary>
