@@ -70,11 +70,11 @@ a8986218386e097724446ba3af4167c1ca817db1 *./LotusAPI.Utils.dll
 572a32bc5e8025f9062957a9730443ca29c76258 *./LotusAPI.Utils.xml
 e4d86cfc2b26cb06da01827430bb370341a26b08 *./LotusAPI.xml
 68d7393a02b959b2eca47a58c6618166e26f544a *./lotus_gl_v142_x64.dll
-234e23b6d6e9624d6ba94c7f3d4253e4307b52d6 *./lotus_hw_basler_v142_x64.dll
-e276bdaa3334a1d4df395421a1818b24271a14b4 *./lotus_hw_intel_rs_v142_x64.dll
-6c3945cca9b2de96fae512a6b8e9b97cc81a34c7 *./lotus_hw_photoneo_v142_x64.dll
-31947fb979374f48701939be1f3eabf530d77fcf *./lotus_hw_ptgrey_v142_x64.dll
-70488fd5c73dce1dc47ab1a516efc79fcd2a0b53 *./lotus_hw_ti_v142_x64.dll
+4980de2c7cc65bc10a07ec302d47d36e7fe73808 *./lotus_hw_basler_v142_x64.dll
+d8d6448be255236c68181a5a55f4d839be1e277d *./lotus_hw_intel_rs_v142_x64.dll
+d6c8c281abbfbbb0a44ffaad14c1903ed640e40a *./lotus_hw_photoneo_v142_x64.dll
+5354cd22ed56ccec570826c023c7036169c0f325 *./lotus_hw_ptgrey_v142_x64.dll
+bfcb4f066341a674d33f72a61b8c418e221c5cc3 *./lotus_hw_ti_v142_x64.dll
 e611f2c45ed206cb03e9954893644f9e45d8199b *./lotus_ml.dll
 1a0328f17a613730f0c5ee2a9cbb2e12d24a9b5b *./lotus_ml_v142_x64.dll
 1439f6715ef187d0dae4b8195b68a4cf5592a35e *./lotus_mv_v142_x64.dll
