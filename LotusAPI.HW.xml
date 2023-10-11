@@ -618,6 +618,13 @@
             Get sub pinmap with given prefix
             </summary>
         </member>
+        <member name="M:LotusAPI.HW.PinMap.GetSubPinMap(System.Predicate{LotusAPI.HW.PinInfo})">
+            <summary>
+            Get sub pin map with predicate
+            </summary>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
         <member name="M:LotusAPI.HW.PinMap.Add(LotusAPI.HW.PinInfo)">
             <summary>
             Add a pin
