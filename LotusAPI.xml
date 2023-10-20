@@ -922,6 +922,15 @@ Count number of valid vertices
 </summary>
             <returns>Number of valid vertices</returns>
         </member>
+        <member name="M:LotusAPI.MV.Pointcloud.CalcOverlap(LotusAPI.MV.Pointcloud,System.Single,System.Int32)">
+            <summary>
+Calc overlap bwetween two clouds
+</summary>
+            <param name="dst_cloud">Destination cloud</param>
+            <param name="radius">Overlap radius</param>
+            <param name="thread_count">Number of thread</param>
+            <returns>Overlap index [0~1]</returns>
+        </member>
         <member name="M:LotusAPI.MV.Pointcloud.CountOverlap(LotusAPI.MV.Pointcloud,System.Single,System.Int32)">
             <summary>
 Count overlap between two clouds (with custom matrices)
