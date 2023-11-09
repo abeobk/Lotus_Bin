@@ -12,8 +12,10 @@ c22e9aaad0649e09df6e6460750acc71cd62a10b *./Automation.BDaq4.dll
 123fe310d1d035932b65fac5006209c4dcd692bf *./EntityFramework.dll
 61af24fd0248e322dbd61541b9a495e54837cc3f *./FastColoredTextBox.dll
 506b1bcf5de5edf1b44c7db4bfaed5ced1835c0e *./firmware/AbeoScan_V4.2.img
+d8994271232f4cdebf51c89766131c4b3731336d *./firmware/AbeoScan_V4.3.img
 dd3452f75e69df409cb2416d72a339f4409e9a1a *./firmware/lc4500_server_armhf_2022_file_sync
 2f69c7e307838a9ecc7c835dac8e22665858dc3d *./firmware/lc4500_server_armhf_2023_tempmon
+9fb9b2836d7b7bbb16206e7e8efb47f354f11ae2 *./firmware/lc4500_server_armhf_v43
 54522ecf8246ca4ef24e6174f69c0847a43e3cc4 *./FirmwareUpdate_MD_VC141_v3_1_Basler_pylon.dll
 30ed1fb26524dad0311e5ff278ca6116fc77f271 *./FLIR_GenTL_v140.cti
 68a08633dfdb2faffa7db82507752f1620556efd *./ftbusui.dll
