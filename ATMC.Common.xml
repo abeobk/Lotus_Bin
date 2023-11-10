@@ -77,6 +77,43 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.InitSurfaceRef(System.Double)">
+            <summary>
+            Initialize surface inspection reference
+            </summary>
+            <param name="fps"></param>
+        </member>
+        <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.Inspect(System.Double,LotusAPI.MV.Pointcloud,System.Int32)">
+            <summary>
+            Inspect pointcloud
+            </summary>
+            <param name="fps">FPS</param>
+            <param name="pc">Input cloud</param>
+            <param name="end_pos">End position</param>
+            <returns>Inspection result</returns>
+        </member>
+        <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.CalcHeightMap(System.Double,LotusAPI.MV.Pointcloud,LotusAPI.Math.Range2f)">
+            <summary>
+            Calc height map
+            </summary>
+            <param name="fps">FPS</param>
+            <param name="pc">Input cloud</param>
+            <param name="height_range">Height range</param>
+        </member>
+        <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.InspectSurface(ATMC.Common.LaserSealer.InspectionResult)">
+            <summary>
+            Inspect surface
+            </summary>
+            <param name="res">Inpsection result</param>
+            <returns>Surface OK Percentage</returns>
+        </member>
+        <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.GetAlignOffset(System.Int32)">
+            <summary>
+            Get align offset
+            </summary>
+            <param name="align_pos">Align pos</param>
+            <returns>Align offset</returns>
+        </member>
         <member name="M:ATMC.Common.LaserSealer.SealerModelConfigBase.FindSpecs(System.Int32,System.Int32)">
             <summary>
             Find a spec list that match a row and align position
@@ -157,6 +194,7 @@
             Sealer inspection
             </summary>
             <param name="fps">Sealer fps</param>
+            <param name="end_pos">End position (-1 => inspect all)</param>
             <param name="pc">Sealer data  cloud</param>
             <param name="model">Model config</param>
             <param name="align_pos">Starting position</param>
@@ -179,7 +217,7 @@
             <param name="pc">Pointcloud whose color channel will be updated</param>
             <param name="height_range">Height range</param>
         </member>
-        <member name="M:ATMC.Common.LaserSealer.Utils.FindAlignPos(System.Double,LotusAPI.MV.Pointcloud,ATMC.Common.LaserSealer.SealerModelConfigBase)">
+        <member name="M:ATMC.Common.LaserSealer.Utils.FindAlignPos(System.Double,LotusAPI.MV.Pointcloud,ATMC.Common.LaserSealer.SealerModelConfigBase,System.Boolean)">
             <summary>
             Find alignment position
             </summary>
