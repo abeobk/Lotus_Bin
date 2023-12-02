@@ -367,6 +367,17 @@
             <param name="scene">scene cloud</param>
             <returns>Registration result</returns>
         </member>
+        <member name="M:ATMC.Common.RegistrationConfig.FindAll(LotusAPI.MV.Pointcloud,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Find all result and align
+            </summary>
+            <param name="scene">Scene cloud</param>
+            <param name="check_fitness">check fitness</param>
+            <param name="check_overlap">check overlap</param>
+            <param name="check_limit">check limit</param>
+            <returns>list of result</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
         <member name="M:ATMC.Common.RegistrationConfig.ToString">
             <summary>
             Convert to string
