@@ -592,6 +592,16 @@ Read a mesh from STL file
             <param name="filename">file name</param>
             <returns>Mesh</returns>
         </member>
+        <member name="M:LotusAPI.MV.Utils.GetConnectedComponents(LotusAPI.MV.GObject,System.Single,System.Int32)">
+            <summary>
+Extract connected components
+</summary>
+        </member>
+        <member name="M:LotusAPI.MV.Utils.ExtractLowCurvatureCloud(LotusAPI.MV.GObject,System.Single,System.Single)">
+            <summary>
+Extract low curvature pointcloud
+</summary>
+        </member>
         <member name="M:LotusAPI.MV.Utils.CollisionCheck(LotusAPI.MV.GObject,LotusAPI.MV.GObject[])">
             <summary>
 Check if obj collides with any of the meshes in other_objs
@@ -1445,6 +1455,49 @@ Camera information
 \date	12/19/2016
 
 </member>
+        <member name="M:LotusAPI.Math.Utils.ContourArea(LotusAPI.Math.Point2f[])">
+            <summary>
+Compute contour area
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ContourArea(LotusAPI.Math.Point2i[])">
+            <summary>
+Compute contour area
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.MinAreaRect(LotusAPI.Math.Point2f[])">
+            <summary>
+Compute min area rect
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ConvexHull(LotusAPI.Math.Point2f[])">
+            <summary>
+Compute convex hull
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ConvexHull(LotusAPI.Math.Point2i[])">
+            <summary>
+Compute convex hull
+</summary>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ApproxPolyDP(LotusAPI.Math.Point2i[],System.Double,System.Boolean)">
+            <summary>
+Simplify contour to polygon
+</summary>
+            <param name="pnts">input points</param>
+            <param name="epsilon">error</param>
+            <param name="closed">is contour closed?</param>
+            <returns>simplified contour</returns>
+        </member>
+        <member name="M:LotusAPI.Math.Utils.ApproxPolyDP(LotusAPI.Math.Point2f[],System.Double,System.Boolean)">
+            <summary>
+Simplify contour to polygon
+</summary>
+            <param name="pnts">input points</param>
+            <param name="epsilon">error</param>
+            <param name="closed">is contour closed?</param>
+            <returns>simplified contour</returns>
+        </member>
         <member name="M:LotusAPI.Math.Utils.FindCircle(LotusAPI.Math.Point2f[],System.Single,System.Single,LotusAPI.Math.Vector2f)">
             <summary>
 Find best circle with fixed radius in a curve 
