@@ -358,16 +358,6 @@
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:LotusAPI.Robotics.Properties.Resources.Hand_eye_system_EYE_ON_HAND">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
-        <member name="P:LotusAPI.Robotics.Properties.Resources.Hand_eye_system_FIXED_EYE">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
         <member name="P:LotusAPI.Robotics.Properties.Resources.opened_folder_24px">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
@@ -379,6 +369,26 @@
             </summary>
         </member>
         <member name="P:LotusAPI.Robotics.Properties.Resources.save_as_24px">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.Properties.Resources.TLH_EOH">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.Properties.Resources.TLH_FE">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.Properties.Resources.XYZ_EOH">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LotusAPI.Robotics.Properties.Resources.XYZ_FE">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
