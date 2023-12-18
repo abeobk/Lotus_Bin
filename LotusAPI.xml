@@ -1048,6 +1048,11 @@ Project 3d point to image plane
 Is key point
 </summary>
         </member>
+        <member name="M:LotusAPI.MV.CalibKeyPoint.GetContour">
+            <summary>
+Get key point contour
+</summary>
+        </member>
         <member name="P:LotusAPI.MV.CalibKeyPoint.ObjectPoint">
             <summary>
 Object point
