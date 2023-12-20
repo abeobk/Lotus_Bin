@@ -592,6 +592,11 @@ Read a mesh from STL file
             <param name="filename">file name</param>
             <returns>Mesh</returns>
         </member>
+        <member name="M:LotusAPI.MV.Utils.CreateCalibBoard(System.String,LotusAPI.Math.Size2f,System.Single,System.Single,System.Single)">
+            <summary>
+Create calibration board and save to file
+</summary>
+        </member>
         <member name="M:LotusAPI.MV.Utils.GetConnectedComponents(LotusAPI.MV.GObject,System.Single,System.Int32)">
             <summary>
 Extract connected components
