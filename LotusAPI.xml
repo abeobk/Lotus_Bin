@@ -1452,7 +1452,7 @@ Gets the calib sample count.
 </member>
         <member name="T:Lotus.Mv.CameraCalibData">
 CameraCalibData class.
-This object holds the data needed in camera calibration
+This object holds the data required in camera calibration
 Resolution must be set before the calibration
 After calibration, sample poses are known.
 \sa  ObjectBase
