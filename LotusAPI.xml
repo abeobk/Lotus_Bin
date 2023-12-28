@@ -130,6 +130,13 @@ Transform a Line from CC to UF
             <param name="cc_line">Line in CC coordinate</param>
             <returns>Line in UF coordinate</returns>
         </member>
+        <member name="M:LotusAPI.Robotics.HandEyeSystem.CCToUF(LotusAPI.MV.Pointcloud)">
+            <summary>
+Transform pointcloud from CC to UF
+</summary>
+            <param name="cc_cloud">Pointcloud in CCcoordinate</param>
+            <returns>Pointcloud in UF coordinate</returns>
+        </member>
         <member name="M:LotusAPI.Robotics.HandEyeSystem.CC2UF(LotusAPI.MV.Pointcloud)">
             <summary>
 Transform pointcloud from CC to UF
