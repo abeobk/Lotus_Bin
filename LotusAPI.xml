@@ -609,6 +609,11 @@ Create calibration board and save to file
 Extract connected components
 </summary>
         </member>
+        <member name="M:LotusAPI.MV.Utils.CalcLocalPlaneProjection(LotusAPI.MV.GObject,System.Single,System.Int32)">
+            <summary>
+Extract low curvature pointcloud
+</summary>
+        </member>
         <member name="M:LotusAPI.MV.Utils.ExtractLowCurvatureCloud(LotusAPI.MV.GObject,System.Single,System.Single)">
             <summary>
 Extract low curvature pointcloud
