@@ -681,7 +681,7 @@
         </member>
         <member name="M:ATMC.Common.Utils.UpdateHwStatus(Abeo.Controls.ZeroCode.FlatStatusBar,System.Boolean,ATMC.Common.PLCManager,ATMC.Common.RobotManager,LotusAPI.HW.AbeoScanManager,ATMC.Common.CameraManager,LotusAPI.HW.LZManager)">
             <summary>
-            Update hw status and display on statusbar
+            Update hw status and display on statusbar, output PLC.DO.HW_ERR if HW_ERR signal is defined
             </summary>
             <param name="statusbar">The status bar</param>
             <param name="show_alarm">Show alarm dialog if set to true</param>
@@ -690,6 +690,40 @@
             <param name="scanner_man">Scanner manager</param>
             <param name="cam_man">Camera manager</param>
             <param name="lz_man">Lz manager</param>
+        </member>
+        <member name="M:ATMC.Common.Utils.CreateWithNewUFCenter(LotusAPI.Robotics.HandEyeSystem,LotusAPI.Math.Point3f)">
+            <summary>
+            Create hand-eye with new UF center
+            </summary>
+            <param name="base_he"></param>
+            <param name="new_uf_cen">New uf center</param>
+            <returns>New hand-eye system</returns>
+        </member>
+        <member name="M:ATMC.Common.Utils.Scan(LotusAPI.MV.AbeoScan,LotusAPI.Robotics.IRobotController,LotusAPI.Robotics.HandEyeSystem,ATMC.Common.TargetCoordEnum)">
+            <summary>
+            Capture a pointcloud and convert to target coordinate, RobotPose and Coord info are embedded to the returned cloud
+            </summary>
+            <param name="scanner">Scanner</param>
+            <param name="robot">Robot</param>
+            <param name="handeye">Handeye config</param>
+            <param name="coord">Target coordinate</param>
+            <returns>Pointcloud</returns>
+        </member>
+        <member name="M:ATMC.Common.Utils.Scan(LotusAPI.MV.AbeoScan,LotusAPI.Robotics.RobotPose,LotusAPI.Robotics.HandEyeSystem,ATMC.Common.TargetCoordEnum)">
+            <summary>
+            Capture a pointcloud and convert to target coordinate, RobotPose and Coord info are embedded to the returned cloud
+            </summary>
+            <param name="scanner">Scanner</param>
+            <param name="handeye">Handeye config</param>
+            <param name="coord">Target coordinate</param>
+            <returns>Pointcloud</returns>
+        </member>
+        <member name="M:ATMC.Common.Utils.GetRobotPose(LotusAPI.MV.Pointcloud)">
+            <summary>
+            Get robot pose info
+            </summary>
+            <param name="cloud">input cloud</param>
+            <returns>Robot pose</returns>
         </member>
         <member name="M:ATMC.Common.VideoViewer.SetPosition(System.Double)">
             <summary>
